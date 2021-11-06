@@ -1,0 +1,31 @@
+{
+  "name": "wellnesswednesday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "activity.controller.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.11",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolinadebowska/wellnesswednesday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolinadebowska/wellnesswednesday/issues"
+  },
+  "homepage": "https://github.com/karolinadebowska/wellnesswednesday#readme"
+}
