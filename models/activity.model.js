@@ -19,8 +19,10 @@ const Activity = mongoose.model('Activities', new mongoose.Schema({
   },
   supply:{
     type:String,
+  },
+  type:{
+    type: String
   }
 }))
 
 module.exports = Activity;
-
